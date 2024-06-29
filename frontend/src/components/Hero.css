@@ -1,0 +1,6 @@
+.home {
+    background: url('http://localhost:3000/images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Ensure it takes up at least the full viewport height */
+  }
+  
