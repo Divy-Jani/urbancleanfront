@@ -16,8 +16,8 @@ function Hero() {
 
 
   return (
-  <div className='home'>
-
+    <div className="hero-content">
+    <h1 className="hero-title">Tackling Litter with <h1 className='hero-title2'>TECHNOLOGY</h1></h1>
   </div>
   )
 }
