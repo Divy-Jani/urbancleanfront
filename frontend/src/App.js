@@ -8,6 +8,8 @@ import Resident from './components/Resident.js';
 import ResidentForm from './components/Residentform.js';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import RequestR from './components/RequestR.js';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<SignUp/>} />
       <Route path="/resident" element={<Resident/>} />
+      <Route path="/requestr" element={<RequestR/>} />
      
      
       
